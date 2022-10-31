@@ -20,6 +20,7 @@
   "homepage": "https://github.com/SOURAV-ROY/REDUX-REACT#readme",
   "dependencies": {
     "node-fetch": "^2.6.7",
-    "redux": "^4.2.0"
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1"
   }
 }
