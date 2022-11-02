@@ -8,4 +8,5 @@ store.subscribe(() => {
 
 store.dispatch(increment());
 store.dispatch(increment());
+store.dispatch(increment());
 store.dispatch(decrement());

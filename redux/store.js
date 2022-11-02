@@ -1,8 +1,10 @@
 const {createStore, combineReducers} = require('redux');
 const counterReducer = require('./counter/reducer');
+const dynamicCounterReducer = require('./dynamicCounter/dynamicReducer');
 
 const rootReducer = combineReducers({
-    counter: counterReducer
+    counter: counterReducer,
+    dynamicCounter: dynamicCounterReducer
 });
 
 const store = createStore(rootReducer);
