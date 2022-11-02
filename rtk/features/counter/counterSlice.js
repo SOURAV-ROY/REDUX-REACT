@@ -10,13 +10,13 @@ const counterSlice = createSlice({
     reducers: {
         increment: (state, action) => {
             state.count += 5;
-
-            console.log(`Increment => ${action.type}`)
+            console.log(`Increment ==========> ${JSON.stringify(action)}`);
+            console.log(`Increment ==========> ${action.type}`);
         },
         decrement: (state, action) => {
             state.count -= 5;
-
-            console.log(`Decrement => ${action.type}`);
+            console.log(`Decrement ==========> ${JSON.stringify(action)}`);
+            console.log(`Decrement ==========> ${action.type}`);
         }
     }
 })
